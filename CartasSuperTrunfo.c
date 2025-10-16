@@ -120,7 +120,7 @@ int main() {
     printf("PIB Per Capita: %.2f\n", PIBpercapita2);
     printf("Super Poder: %.4f\n", superpoder2);
 
-//Comparação das cartas
+    //Comparação das cartas
     int resultadoA;
     int resultadoB;
     int resultadoC;
@@ -137,7 +137,7 @@ int main() {
     resultadoF = (float)PIBpercapita1 > PIBpercapita2;
     resultadoG = (float)superpoder1 > superpoder2;
 
-   //Exibir o resultado das comparações
+    //Exibir o resultado das comparações
     printf("\n***Comparando as Cartas*** \n");
     printf("\nPopulação: Carta 1: %d\n", resultadoA);
     printf("Área (Km²): Carta 1: %d\n", resultadoB);
@@ -196,6 +196,6 @@ int main() {
     }else{
         printf("\nCarta 2 - !!VENCEU!!\n");
     }
-    
+
     return 0;
 }
