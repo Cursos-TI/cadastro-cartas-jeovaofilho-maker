@@ -217,6 +217,8 @@ int main() {
     printf("Jogador: ");
     scanf("%d", &opcao);
 
+    opcao == 1 ? printf("Computador: 2\n") : printf("Computador: 1\n");
+    /*
     if(opcao == 1){
         printf("Computador: 2");
     } else if(opcao == 2){
@@ -224,13 +226,14 @@ int main() {
     } else {
         printf("## Opção Inválida \n");
     }
+*/
 
     switch (opcao){
     case 1:
-    printf("\nJogador: Carta 1 (%s) - Computador Carta 2 (%s)\n", estado1, estado2);
+    printf("\nJogador: Carta 1 (%s) - Computador: Carta 2 (%s)\n", estado1, estado2);
     break;
     case 2:
-    printf("\nJogador: Carta 2 (%s) - Computador Carta 1 (%s)\n", estado2, estado1);
+    printf("\nJogador: Carta 2 (%s) - Computador: Carta 1 (%s)\n", estado2, estado1);
     break;
     default:
     printf("## Opção Inválida. ##\n");
